@@ -1,0 +1,37 @@
+
+@keyframes color {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #33CC36; }
+  100% { background: #33CCCC; }
+}
+body{
+    width: 300px;
+    height: 250px;
+    background-color: #FFFAE7;
+    animation: color 9s infinite linear;
+    border-radius: 10px;
+    justify-content:center;
+}
+.jokeImg{
+    width: 60vh;
+    padding-left: 20%;
+    transform: rotateX();
+    transform: rotateY();
+    transform: rotateZ();
+}
+.heading{
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+p{
+    font-size: 22px;
+    color: #D2001A;
+    border-radius: 10px;
+    /* border: 1px solid #FFDE00; */
+}
+
